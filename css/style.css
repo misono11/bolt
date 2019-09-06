@@ -3,11 +3,13 @@
   src: url
 }
 
-@media screen and (min-width:1200px){
-}
+.body {font-family: 'Lato'}
+
+h1,h2,h3 {font-family: 'Raleway'}
 
 .clearfix:after {
   display:block;
+  content:"";
   content:"";
   clear:both;
 }
@@ -22,6 +24,10 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   padding:15px;
 }
@@ -33,7 +39,6 @@
 
 .header-font {
   color:#333;
-  font-size:40px;
 }
 
 .contact-text {
@@ -84,7 +89,7 @@ h1 {
   color: #f2f2f2;
 }
 
-h2 {
+h2,h3 {
   font-size:24px;
 }
 
@@ -92,6 +97,7 @@ h2 {
   font-size: 20px;
   color: #f2f2f2;
   margin-top: 35px;
+  line-height: 1.5;
 }
 
 .picture-content-box {
@@ -138,6 +144,10 @@ h2 {
   margin-right: 90px;
 }
 
+.text-item-text {
+  line-height: 1.5;
+}
+
 .button {
   font-size:12px;
   padding:14px 20px;
@@ -172,6 +182,7 @@ h2 {
 
 .skill-text {
   font-size: 16px;
+  font-family: 'Lato'
 }
 
 .sns {
@@ -185,12 +196,11 @@ h2 {
 
 .font {
   color: #74cfae;
-  font-size:100px;
 }
 
 .font-item {
   width:185px;
-  transition:all 0.3s ease 0;
+  transition:all 0.3s ease 0s;
 }
 
 .font-item:hover {

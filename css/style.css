@@ -13,7 +13,6 @@ a {
 }
 
 .header {
-  padding:15px 0;
   background-color: #fff;
   position: fixed;
   top:0;
@@ -25,6 +24,7 @@ a {
 .header-box {
   display:flex;
   justify-content:space-between;
+  padding:15px 0;
 }
 
 .header-font {
@@ -45,7 +45,7 @@ a {
 
 .main {
   background-color: #f2f2f2;
-  margin-top:70px;
+  padding-top:70px;
 }
 
 .main-title {
@@ -54,7 +54,7 @@ a {
   color: #74cfae;
 }
 
-.title-content {
+.title-box {
   padding:250px 0px;
   text-align: center;
 }
@@ -65,11 +65,11 @@ a {
   margin-top: 20px;
 }
 
-.content {
+.iphone-content {
   background-color: #74cfae;
 }
 
-.iphone-content {
+.iphone-content-box {
   display:flex;
   justify-content: space-around;
   padding-top:50px;
@@ -89,10 +89,12 @@ a {
   line-height: 1.5;
 }
 
-.picture-content-box {
+.picture-content {
   background-color: #f2f2f2; 
+}
+
+.picture-content-box {
   padding:60px 0;
-  box-sizing: border-box;
 }
 
 .picture-title-box {
@@ -154,8 +156,11 @@ a {
 
 .skill {
   background-color: #4e4e4e;
-  text-align: center;
+}
+
+.skill-box {
   padding:70px 0;
+  text-align: center;
   color:#fff;
 }
 
@@ -181,24 +186,19 @@ a {
   margin-top: 15px;
 }
 
-.sns {
-  padding:200px 0;
-}
-
 .sns-box {
   display:flex;
   justify-content: center;
   text-align: center;
+  padding: 200px 0;
 }
 
 .font {
   color: #74cfae;
-  margin-top:20px;
 }
 
 .font-item {
-  width:185px;
-  height:120px;
+  padding:20px 50px;
   transition:all 0.3s ease 0s;
 }
 
@@ -208,10 +208,10 @@ a {
 
 .footer {
   background-color: #74cfae;
-  padding:20px 0 25px 0;
 }
 
-.footer-text-content {
+.footer-box {
   color:#fff;
   text-align: right;
+  padding: 20px 0 25px 0;
 }

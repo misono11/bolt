@@ -171,6 +171,8 @@ a {
 .skill-content {
   display:flex;
   margin-top:30px;
+  justify-content: center;
+
 }
 
 .skill-item-box {
@@ -214,4 +216,138 @@ a {
   color:#fff;
   text-align: right;
   padding: 20px 0 25px 0;
+}
+
+@media screen and (min-width:1200px) {
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+.picture-item {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media screen and (max-width:767px) {
+.contact-text {
+  display: none;
+}
+
+.hambuger-menu-icon {
+  width: 20px;
+  height: 2px;
+  border:1px solid #ddd;
+  border-radius: 4px;
+  padding:10px;
+  color: #ddd;
+}
+
+.menu-icon {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background-color:#ddd;
+  display: block;
+  content: "";
+}
+
+.menu-icon:before, .menu-icon:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  content: "";
+}
+
+.menu-icon:before {
+  top:5px;
+}
+
+.menu-icon:after {
+  bottom:5px;
+}
+
+.contact-text {
+  display:none;
+
+}
+
+.title-box {
+  padding:160px 0px 130px 0px;
+}
+
+.main-title {
+  font-size: 80px;
+}
+
+.sns-box {
+  display: block;
+  padding:50px 0;
+}
+
+.font-item {
+  width:100%;
+  padding:20px 0 ;
+}
+}
+
+@media screen and (max-width:1199px) {
+  .inner {
+    width: 95%;
+  }
+  
+  .iphone-content-box {
+    display: block;
+    padding:50px 0 25px 0;
+  }
+  
+  .iphone-text {
+    width:100%;
+  }
+
+  .iphone-text-box {
+    margin: 20px 0 0 0;
+  }
+
+  .picture {
+    margin:0;
+  }
+
+  .picture-item .picture:nth-child(3n) {
+    margin-bottom:80px;
+  }
+
+  .picture-item {
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+  
+  .text-item-box {
+    display: block;
+  }
+  
+  .text-item-text {
+    width:100%;
+    margin-bottom: 40px;
+  }
+  
+  .skill-content {
+    display: block;
+  }
+  
+  .skill-item-box {
+    margin: 0 0 88px 0;
+  }
+  
+  .skill-content .skill-item-box:last-child {
+    margin: 0;
+  }
+  
+}
+
+@media screen and (min-width:768px) {
+  .hambuger-menu-icon {
+    display:none;
+  }
 }

@@ -1,6 +1,10 @@
-body {font-family: 'Lato'}
+body {
+  font-family: 'Lato'
+}
 
-.title {font-family: 'Raleway'}
+.title {
+  font-family: 'Raleway'
+}
 
 .inner {
   width:1100px;
@@ -316,6 +320,12 @@ a {
   }
 }
 
+@media screen and (min-width:768px) {
+  .hambuger-menu-icon {
+    display: none;
+  }
+}
+
 @media screen and (max-width:767px) {
 
   .contact-text {
@@ -345,8 +355,3 @@ a {
   }
 }
 
-@media screen and (min-width:768px) {
-  .hambuger-menu-icon {
-    display: none;
-  }
-}
